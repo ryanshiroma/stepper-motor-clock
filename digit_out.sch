@@ -1,0 +1,786 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title "Stepper Clock"
+Date "2021-09-17"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_Array:ULN2803A U21
+U 1 1 62598A8F
+P 9950 3250
+AR Path="/613C8C5F/62598A8F" Ref="U21"  Part="1" 
+AR Path="/62595974/62598A8F" Ref="U?"  Part="1" 
+AR Path="/6259766A/62598A8F" Ref="U?"  Part="1" 
+AR Path="/6146B287/62598A8F" Ref="U25"  Part="1" 
+AR Path="/6146EB3E/62598A8F" Ref="U29"  Part="1" 
+AR Path="/61471317/62598A8F" Ref="U33"  Part="1" 
+F 0 "U25" V 10000 3100 50  0000 C CNN
+F 1 "ULN2803A" V 9850 3100 50  0000 C CNN
+F 2 "Package_SO:SOP-18_7x12.5mm_P1.27mm" H 10000 2600 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 10050 3050 50  0001 C CNN
+	1    9950 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_Array:ULN2803A U20
+U 1 1 62598A91
+P 7350 3250
+AR Path="/613C8C5F/62598A91" Ref="U20"  Part="1" 
+AR Path="/62595974/62598A91" Ref="U?"  Part="1" 
+AR Path="/6259766A/62598A91" Ref="U?"  Part="1" 
+AR Path="/6146B287/62598A91" Ref="U24"  Part="1" 
+AR Path="/6146EB3E/62598A91" Ref="U28"  Part="1" 
+AR Path="/61471317/62598A91" Ref="U32"  Part="1" 
+F 0 "U24" V 7400 3150 50  0000 C CNN
+F 1 "ULN2803A" V 7250 3150 50  0000 C CNN
+F 2 "Package_SO:SOP-18_7x12.5mm_P1.27mm" H 7400 2600 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 7450 3050 50  0001 C CNN
+	1    7350 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_Array:ULN2803A U18
+U 1 1 62598A92
+P 2550 3250
+AR Path="/613C8C5F/62598A92" Ref="U18"  Part="1" 
+AR Path="/62595974/62598A92" Ref="U?"  Part="1" 
+AR Path="/6259766A/62598A92" Ref="U?"  Part="1" 
+AR Path="/6146B287/62598A92" Ref="U22"  Part="1" 
+AR Path="/6146EB3E/62598A92" Ref="U26"  Part="1" 
+AR Path="/61471317/62598A92" Ref="U30"  Part="1" 
+F 0 "U22" V 2600 3100 50  0000 C CNN
+F 1 "ULN2803A" V 2450 3100 50  0000 C CNN
+F 2 "Package_SO:SOP-18_7x12.5mm_P1.27mm" H 2600 2600 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 2650 3050 50  0001 C CNN
+	1    2550 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR074
+U 1 1 62598A93
+P 1600 3400
+AR Path="/613C8C5F/62598A93" Ref="#PWR074"  Part="1" 
+AR Path="/62595974/62598A93" Ref="#PWR?"  Part="1" 
+AR Path="/6259766A/62598A93" Ref="#PWR?"  Part="1" 
+AR Path="/6146B287/62598A93" Ref="#PWR066"  Part="1" 
+AR Path="/6146EB3E/62598A93" Ref="#PWR058"  Part="1" 
+AR Path="/61471317/62598A93" Ref="#PWR050"  Part="1" 
+F 0 "#PWR050" H 1600 3150 50  0001 C CNN
+F 1 "GND" H 1605 3227 50  0000 C CNN
+F 2 "" H 1600 3400 50  0001 C CNN
+F 3 "" H 1600 3400 50  0001 C CNN
+	1    1600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR076
+U 1 1 62598A94
+P 4050 3400
+AR Path="/613C8C5F/62598A94" Ref="#PWR076"  Part="1" 
+AR Path="/62595974/62598A94" Ref="#PWR?"  Part="1" 
+AR Path="/6259766A/62598A94" Ref="#PWR?"  Part="1" 
+AR Path="/6146B287/62598A94" Ref="#PWR068"  Part="1" 
+AR Path="/6146EB3E/62598A94" Ref="#PWR060"  Part="1" 
+AR Path="/61471317/62598A94" Ref="#PWR052"  Part="1" 
+F 0 "#PWR052" H 4050 3150 50  0001 C CNN
+F 1 "GND" H 4055 3227 50  0000 C CNN
+F 2 "" H 4050 3400 50  0001 C CNN
+F 3 "" H 4050 3400 50  0001 C CNN
+	1    4050 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR078
+U 1 1 62598A95
+P 6400 3400
+AR Path="/613C8C5F/62598A95" Ref="#PWR078"  Part="1" 
+AR Path="/62595974/62598A95" Ref="#PWR?"  Part="1" 
+AR Path="/6259766A/62598A95" Ref="#PWR?"  Part="1" 
+AR Path="/6146B287/62598A95" Ref="#PWR070"  Part="1" 
+AR Path="/6146EB3E/62598A95" Ref="#PWR062"  Part="1" 
+AR Path="/61471317/62598A95" Ref="#PWR054"  Part="1" 
+F 0 "#PWR054" H 6400 3150 50  0001 C CNN
+F 1 "GND" H 6405 3227 50  0000 C CNN
+F 2 "" H 6400 3400 50  0001 C CNN
+F 3 "" H 6400 3400 50  0001 C CNN
+	1    6400 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3250 6400 3250
+Wire Wire Line
+	6400 3250 6400 3400
+Wire Wire Line
+	4250 3250 4050 3250
+Wire Wire Line
+	4050 3250 4050 3400
+Wire Wire Line
+	1850 3250 1800 3250
+Wire Wire Line
+	1600 3250 1600 3400
+$Comp
+L power:+5V #PWR075
+U 1 1 62598A97
+P 3300 3500
+AR Path="/613C8C5F/62598A97" Ref="#PWR075"  Part="1" 
+AR Path="/62595974/62598A97" Ref="#PWR?"  Part="1" 
+AR Path="/6259766A/62598A97" Ref="#PWR?"  Part="1" 
+AR Path="/6146B287/62598A97" Ref="#PWR067"  Part="1" 
+AR Path="/6146EB3E/62598A97" Ref="#PWR059"  Part="1" 
+AR Path="/61471317/62598A97" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 3300 3350 50  0001 C CNN
+F 1 "+5V" H 3315 3673 50  0000 C CNN
+F 2 "" H 3300 3500 50  0001 C CNN
+F 3 "" H 3300 3500 50  0001 C CNN
+	1    3300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR077
+U 1 1 62486584
+P 5700 3450
+AR Path="/613C8C5F/62486584" Ref="#PWR077"  Part="1" 
+AR Path="/62595974/62486584" Ref="#PWR?"  Part="1" 
+AR Path="/6259766A/62486584" Ref="#PWR?"  Part="1" 
+AR Path="/6146B287/62486584" Ref="#PWR069"  Part="1" 
+AR Path="/6146EB3E/62486584" Ref="#PWR061"  Part="1" 
+AR Path="/61471317/62486584" Ref="#PWR053"  Part="1" 
+F 0 "#PWR053" H 5700 3300 50  0001 C CNN
+F 1 "+5V" H 5715 3623 50  0000 C CNN
+F 2 "" H 5700 3450 50  0001 C CNN
+F 3 "" H 5700 3450 50  0001 C CNN
+	1    5700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR079
+U 1 1 624869C9
+P 8150 3450
+AR Path="/613C8C5F/624869C9" Ref="#PWR079"  Part="1" 
+AR Path="/62595974/624869C9" Ref="#PWR?"  Part="1" 
+AR Path="/6259766A/624869C9" Ref="#PWR?"  Part="1" 
+AR Path="/6146B287/624869C9" Ref="#PWR071"  Part="1" 
+AR Path="/6146EB3E/624869C9" Ref="#PWR063"  Part="1" 
+AR Path="/61471317/624869C9" Ref="#PWR055"  Part="1" 
+F 0 "#PWR055" H 8150 3300 50  0001 C CNN
+F 1 "+5V" H 8165 3623 50  0000 C CNN
+F 2 "" H 8150 3450 50  0001 C CNN
+F 3 "" H 8150 3450 50  0001 C CNN
+	1    8150 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR081
+U 1 1 62598A9A
+P 10750 3400
+AR Path="/613C8C5F/62598A9A" Ref="#PWR081"  Part="1" 
+AR Path="/62595974/62598A9A" Ref="#PWR?"  Part="1" 
+AR Path="/6259766A/62598A9A" Ref="#PWR?"  Part="1" 
+AR Path="/6146B287/62598A9A" Ref="#PWR073"  Part="1" 
+AR Path="/6146EB3E/62598A9A" Ref="#PWR065"  Part="1" 
+AR Path="/61471317/62598A9A" Ref="#PWR057"  Part="1" 
+F 0 "#PWR057" H 10750 3250 50  0001 C CNN
+F 1 "+5V" H 10765 3573 50  0000 C CNN
+F 2 "" H 10750 3400 50  0001 C CNN
+F 3 "" H 10750 3400 50  0001 C CNN
+	1    10750 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 3400 10750 3700
+Wire Wire Line
+	10750 3700 10250 3700
+Wire Wire Line
+	8150 3450 8150 3700
+Wire Wire Line
+	8150 3700 7650 3700
+Wire Wire Line
+	3300 3500 3300 3650
+Connection ~ 2850 3650
+Wire Wire Line
+	2850 3650 3300 3650
+Wire Wire Line
+	4450 3650 4450 4150
+Wire Wire Line
+	4550 4250 4550 3650
+$Comp
+L Transistor_Array:ULN2803A U19
+U 1 1 62461E1D
+P 4950 3250
+AR Path="/613C8C5F/62461E1D" Ref="U19"  Part="1" 
+AR Path="/62595974/62461E1D" Ref="U?"  Part="1" 
+AR Path="/6259766A/62461E1D" Ref="U?"  Part="1" 
+AR Path="/6146B287/62461E1D" Ref="U23"  Part="1" 
+AR Path="/6146EB3E/62461E1D" Ref="U27"  Part="1" 
+AR Path="/61471317/62461E1D" Ref="U31"  Part="1" 
+F 0 "U23" V 5000 3100 50  0000 C CNN
+F 1 "ULN2803A" V 4850 3100 50  0000 C CNN
+F 2 "Package_SO:SOP-18_7x12.5mm_P1.27mm" H 5000 2600 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 5050 3050 50  0001 C CNN
+	1    4950 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 3650 4650 4350
+Wire Wire Line
+	4750 4450 4750 3650
+Wire Wire Line
+	4850 3650 4850 4800
+Wire Wire Line
+	4950 4900 4950 3650
+Wire Wire Line
+	5050 3650 5050 5000
+Wire Wire Line
+	5150 5100 5150 3650
+Wire Wire Line
+	10250 4550 10250 3700
+Wire Wire Line
+	7650 3700 7650 3650
+Connection ~ 7650 3700
+Wire Wire Line
+	7550 3650 7550 5150
+Wire Wire Line
+	7450 3650 7450 5050
+Wire Wire Line
+	7350 3650 7350 4950
+Wire Wire Line
+	7250 3650 7250 4850
+Wire Wire Line
+	7150 3650 7150 4500
+Wire Wire Line
+	7050 3650 7050 4400
+Wire Wire Line
+	6950 3650 6950 4300
+Wire Wire Line
+	6850 3650 6850 4200
+Wire Wire Line
+	9450 3650 9450 4150
+Wire Wire Line
+	9550 3650 9550 4250
+Wire Wire Line
+	9650 3650 9650 4350
+Wire Wire Line
+	9750 3650 9750 4450
+Wire Wire Line
+	10250 3700 10250 3650
+Connection ~ 10250 3700
+$Comp
+L power:GND #PWR080
+U 1 1 6248479F
+P 9000 3400
+AR Path="/613C8C5F/6248479F" Ref="#PWR080"  Part="1" 
+AR Path="/62595974/6248479F" Ref="#PWR?"  Part="1" 
+AR Path="/6259766A/6248479F" Ref="#PWR?"  Part="1" 
+AR Path="/6146B287/6248479F" Ref="#PWR072"  Part="1" 
+AR Path="/6146EB3E/6248479F" Ref="#PWR064"  Part="1" 
+AR Path="/61471317/6248479F" Ref="#PWR056"  Part="1" 
+F 0 "#PWR056" H 9000 3150 50  0001 C CNN
+F 1 "GND" H 9005 3227 50  0000 C CNN
+F 2 "" H 9000 3400 50  0001 C CNN
+F 3 "" H 9000 3400 50  0001 C CNN
+	1    9000 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 3250 9000 3400
+Wire Wire Line
+	9000 3250 9250 3250
+NoConn ~ 9850 3650
+NoConn ~ 9950 3650
+NoConn ~ 10050 3650
+NoConn ~ 10150 3650
+NoConn ~ 10150 2850
+NoConn ~ 10050 2850
+NoConn ~ 9950 2850
+NoConn ~ 9850 2850
+$Comp
+L Connector_Generic:Conn_01x05 J4
+U 1 1 61461582
+P 3150 5050
+AR Path="/613C8C5F/61461582" Ref="J4"  Part="1" 
+AR Path="/6146B287/61461582" Ref="J11"  Part="1" 
+AR Path="/6146EB3E/61461582" Ref="J18"  Part="1" 
+AR Path="/61471317/61461582" Ref="J25"  Part="1" 
+F 0 "J11" H 3450 5000 50  0000 C CNN
+F 1 "Conn_01x05" H 3450 5100 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal" H 3150 5050 50  0001 C CNN
+F 3 "~" H 3150 5050 50  0001 C CNN
+	1    3150 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J3
+U 1 1 61462D93
+P 3150 4400
+AR Path="/613C8C5F/61462D93" Ref="J3"  Part="1" 
+AR Path="/6146B287/61462D93" Ref="J10"  Part="1" 
+AR Path="/6146EB3E/61462D93" Ref="J17"  Part="1" 
+AR Path="/61471317/61462D93" Ref="J24"  Part="1" 
+F 0 "J10" H 3450 4350 50  0000 C CNN
+F 1 "Conn_01x05" H 3450 4450 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal" H 3150 4400 50  0001 C CNN
+F 3 "~" H 3150 4400 50  0001 C CNN
+	1    3150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J7
+U 1 1 61463644
+P 7900 4400
+AR Path="/613C8C5F/61463644" Ref="J7"  Part="1" 
+AR Path="/6146B287/61463644" Ref="J14"  Part="1" 
+AR Path="/6146EB3E/61463644" Ref="J21"  Part="1" 
+AR Path="/61471317/61463644" Ref="J28"  Part="1" 
+F 0 "J14" H 8200 4350 50  0000 C CNN
+F 1 "Conn_01x05" H 8200 4450 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal" H 7900 4400 50  0001 C CNN
+F 3 "~" H 7900 4400 50  0001 C CNN
+	1    7900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J8
+U 1 1 6146486E
+P 7900 5050
+AR Path="/613C8C5F/6146486E" Ref="J8"  Part="1" 
+AR Path="/6146B287/6146486E" Ref="J15"  Part="1" 
+AR Path="/6146EB3E/6146486E" Ref="J22"  Part="1" 
+AR Path="/61471317/6146486E" Ref="J29"  Part="1" 
+F 0 "J15" H 8200 5000 50  0000 C CNN
+F 1 "Conn_01x05" H 8200 5100 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal" H 7900 5050 50  0001 C CNN
+F 3 "~" H 7900 5050 50  0001 C CNN
+	1    7900 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J5
+U 1 1 61465D0C
+P 5550 4350
+AR Path="/613C8C5F/61465D0C" Ref="J5"  Part="1" 
+AR Path="/6146B287/61465D0C" Ref="J12"  Part="1" 
+AR Path="/6146EB3E/61465D0C" Ref="J19"  Part="1" 
+AR Path="/61471317/61465D0C" Ref="J26"  Part="1" 
+F 0 "J12" H 5850 4300 50  0000 C CNN
+F 1 "Conn_01x05" H 5850 4400 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal" H 5550 4350 50  0001 C CNN
+F 3 "~" H 5550 4350 50  0001 C CNN
+	1    5550 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J6
+U 1 1 61466CAF
+P 5550 5000
+AR Path="/613C8C5F/61466CAF" Ref="J6"  Part="1" 
+AR Path="/6146B287/61466CAF" Ref="J13"  Part="1" 
+AR Path="/6146EB3E/61466CAF" Ref="J20"  Part="1" 
+AR Path="/61471317/61466CAF" Ref="J27"  Part="1" 
+F 0 "J13" H 5850 4950 50  0000 C CNN
+F 1 "Conn_01x05" H 5850 5050 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal" H 5550 5000 50  0001 C CNN
+F 3 "~" H 5550 5000 50  0001 C CNN
+	1    5550 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J9
+U 1 1 61467377
+P 10550 4350
+AR Path="/613C8C5F/61467377" Ref="J9"  Part="1" 
+AR Path="/6146B287/61467377" Ref="J16"  Part="1" 
+AR Path="/6146EB3E/61467377" Ref="J23"  Part="1" 
+AR Path="/61471317/61467377" Ref="J30"  Part="1" 
+F 0 "J16" H 10850 4300 50  0000 C CNN
+F 1 "Conn_01x05" H 10850 4400 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal" H 10550 4350 50  0001 C CNN
+F 3 "~" H 10550 4350 50  0001 C CNN
+	1    10550 4350
+	1    0    0    -1  
+$EndComp
+Text Label 9750 2550 1    50   ~ 0
+A1
+Text Label 9650 2550 1    50   ~ 0
+A2
+Text Label 7250 2550 1    50   ~ 0
+A8
+Text Label 7350 2550 1    50   ~ 0
+A7
+Text Label 7450 2550 1    50   ~ 0
+A6
+Text Label 7550 2550 1    50   ~ 0
+A5
+Text Label 9450 2550 1    50   ~ 0
+A4
+Text Label 9550 2550 1    50   ~ 0
+A3
+Entry Wire Line
+	6750 2300 6850 2400
+Entry Wire Line
+	6850 2300 6950 2400
+Entry Wire Line
+	6950 2300 7050 2400
+Entry Wire Line
+	7050 2300 7150 2400
+Entry Wire Line
+	7150 2300 7250 2400
+Entry Wire Line
+	7250 2300 7350 2400
+Entry Wire Line
+	7350 2300 7450 2400
+Entry Wire Line
+	7450 2300 7550 2400
+Wire Wire Line
+	6850 2400 6850 2850
+Wire Wire Line
+	6950 2850 6950 2400
+Wire Wire Line
+	7050 2400 7050 2850
+Wire Wire Line
+	7150 2850 7150 2400
+Wire Wire Line
+	7250 2400 7250 2850
+Wire Wire Line
+	7350 2850 7350 2400
+Wire Wire Line
+	7450 2400 7450 2850
+Wire Wire Line
+	7550 2850 7550 2400
+Entry Wire Line
+	1950 2300 2050 2400
+Entry Wire Line
+	2050 2300 2150 2400
+Entry Wire Line
+	2150 2300 2250 2400
+Entry Wire Line
+	4650 2300 4750 2400
+Entry Wire Line
+	4750 2300 4850 2400
+Entry Wire Line
+	4850 2300 4950 2400
+Entry Wire Line
+	4950 2300 5050 2400
+Entry Wire Line
+	5050 2300 5150 2400
+Wire Wire Line
+	2050 2400 2050 2850
+Wire Wire Line
+	2150 2850 2150 2400
+Wire Wire Line
+	2250 2400 2250 2850
+Wire Wire Line
+	4750 2850 4750 2400
+Wire Wire Line
+	4850 2400 4850 2850
+Wire Wire Line
+	4950 2850 4950 2400
+Wire Wire Line
+	5050 2400 5050 2850
+Wire Wire Line
+	5150 2850 5150 2400
+Entry Wire Line
+	2350 2300 2450 2400
+Entry Wire Line
+	2450 2300 2550 2400
+Entry Wire Line
+	2550 2300 2650 2400
+Entry Wire Line
+	2650 2300 2750 2400
+Entry Wire Line
+	2250 2300 2350 2400
+Entry Wire Line
+	4350 2300 4450 2400
+Entry Wire Line
+	4450 2300 4550 2400
+Entry Wire Line
+	4550 2300 4650 2400
+Wire Wire Line
+	2450 2400 2450 2850
+Wire Wire Line
+	2550 2850 2550 2400
+Wire Wire Line
+	2650 2400 2650 2850
+Wire Wire Line
+	2750 2850 2750 2400
+Wire Wire Line
+	2350 2400 2350 2850
+Wire Wire Line
+	4450 2850 4450 2400
+Wire Wire Line
+	4550 2400 4550 2850
+Wire Wire Line
+	4650 2850 4650 2400
+Entry Wire Line
+	9350 2300 9450 2400
+Entry Wire Line
+	9450 2300 9550 2400
+Entry Wire Line
+	9550 2300 9650 2400
+Entry Wire Line
+	9650 2300 9750 2400
+Wire Wire Line
+	9450 2400 9450 2850
+Wire Wire Line
+	9550 2850 9550 2400
+Wire Wire Line
+	9650 2400 9650 2850
+Wire Wire Line
+	9750 2850 9750 2400
+Text Label 5900 2300 0    50   ~ 0
+A[1..28]
+Text HLabel 1750 2300 0    50   Input ~ 0
+A[1..28]
+Text Label 7150 2550 1    50   ~ 0
+A9
+Text Label 7050 2550 1    50   ~ 0
+A10
+Text Label 6950 2550 1    50   ~ 0
+A11
+Text Label 5150 2600 1    50   ~ 0
+A13
+Text Label 5050 2600 1    50   ~ 0
+A14
+Text Label 4950 2600 1    50   ~ 0
+A15
+Text Label 6850 2550 1    50   ~ 0
+A12
+Text Label 4850 2600 1    50   ~ 0
+A16
+Text Label 4550 2600 1    50   ~ 0
+A19
+Text Label 4750 2600 1    50   ~ 0
+A17
+Text Label 4650 2600 1    50   ~ 0
+A18
+Text Label 4450 2600 1    50   ~ 0
+A20
+Text Label 2750 2550 1    50   ~ 0
+A21
+Text Label 2450 2550 1    50   ~ 0
+A24
+Text Label 2650 2550 1    50   ~ 0
+A22
+Text Label 2550 2550 1    50   ~ 0
+A23
+Text Label 2350 2550 1    50   ~ 0
+A25
+Text Label 2250 2550 1    50   ~ 0
+A26
+Text Label 2150 2550 1    50   ~ 0
+A27
+Text Label 2050 2550 1    50   ~ 0
+A28
+Wire Wire Line
+	10350 4150 9450 4150
+Wire Wire Line
+	9550 4250 10350 4250
+Wire Wire Line
+	10350 4350 9650 4350
+Wire Wire Line
+	9750 4450 10350 4450
+Wire Wire Line
+	10250 4550 10350 4550
+Wire Wire Line
+	7650 3700 7650 4600
+Wire Wire Line
+	6850 4200 7700 4200
+Wire Wire Line
+	7700 4300 6950 4300
+Wire Wire Line
+	7050 4400 7700 4400
+Wire Wire Line
+	7700 4500 7150 4500
+Wire Wire Line
+	7700 4600 7650 4600
+Connection ~ 7650 4600
+Wire Wire Line
+	7650 4600 7650 5250
+Wire Wire Line
+	7700 4850 7250 4850
+Wire Wire Line
+	7350 4950 7700 4950
+Wire Wire Line
+	7700 5050 7450 5050
+Wire Wire Line
+	7550 5150 7700 5150
+Wire Wire Line
+	7700 5250 7650 5250
+Wire Wire Line
+	5250 3650 5250 3700
+Wire Wire Line
+	5350 4150 4450 4150
+Wire Wire Line
+	4550 4250 5350 4250
+Wire Wire Line
+	5350 4350 4650 4350
+Wire Wire Line
+	4750 4450 5350 4450
+Wire Wire Line
+	5350 4550 5250 4550
+Connection ~ 5250 4550
+Wire Wire Line
+	5250 4550 5250 5200
+Wire Wire Line
+	4850 4800 5350 4800
+Wire Wire Line
+	4950 4900 5350 4900
+Wire Wire Line
+	5050 5000 5350 5000
+Wire Wire Line
+	5150 5100 5350 5100
+Wire Wire Line
+	5250 5200 5350 5200
+Wire Wire Line
+	2950 5250 2850 5250
+Wire Wire Line
+	2250 3650 2250 4400
+Wire Wire Line
+	2150 3650 2150 4300
+Wire Wire Line
+	2050 3650 2050 4200
+Wire Wire Line
+	2550 4950 2550 3650
+Wire Wire Line
+	2450 3650 2450 4850
+Wire Wire Line
+	2650 3650 2650 5050
+Wire Wire Line
+	2750 5150 2750 3650
+Wire Wire Line
+	2650 5050 2950 5050
+Wire Wire Line
+	2750 5150 2950 5150
+Wire Wire Line
+	2950 4950 2550 4950
+Wire Wire Line
+	2450 4850 2950 4850
+Wire Wire Line
+	2850 3650 2850 4600
+Wire Wire Line
+	2950 4200 2050 4200
+Wire Wire Line
+	2950 4300 2150 4300
+Wire Wire Line
+	2950 4400 2250 4400
+Wire Wire Line
+	2950 4500 2350 4500
+Wire Wire Line
+	2350 4500 2350 3650
+Wire Wire Line
+	2950 4600 2850 4600
+Connection ~ 2850 4600
+Wire Wire Line
+	2850 4600 2850 5250
+Wire Wire Line
+	3300 3650 3300 3850
+Connection ~ 3300 3650
+Wire Wire Line
+	3000 3850 1800 3850
+Wire Wire Line
+	1800 3850 1800 3250
+Connection ~ 1800 3250
+Wire Wire Line
+	1800 3250 1600 3250
+Wire Wire Line
+	5400 3900 4250 3900
+Wire Wire Line
+	4250 3900 4250 3250
+Connection ~ 4250 3250
+Wire Wire Line
+	8150 3700 8150 3900
+Connection ~ 8150 3700
+Wire Wire Line
+	7850 3900 6650 3900
+Wire Wire Line
+	6650 3900 6650 3250
+Connection ~ 6650 3250
+Wire Wire Line
+	10750 3700 10750 3900
+Connection ~ 10750 3700
+Wire Wire Line
+	10450 3900 9250 3900
+Wire Wire Line
+	9250 3900 9250 3250
+Connection ~ 9250 3250
+$Comp
+L Device:CP C23
+U 1 1 61849DB1
+P 5550 3900
+AR Path="/613C8C5F/61849DB1" Ref="C23"  Part="1" 
+AR Path="/6146B287/61849DB1" Ref="C27"  Part="1" 
+AR Path="/6146EB3E/61849DB1" Ref="C31"  Part="1" 
+AR Path="/61471317/61849DB1" Ref="C35"  Part="1" 
+F 0 "C27" V 5295 3900 50  0000 C CNN
+F 1 "100uF" V 5386 3900 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5588 3750 50  0001 C CNN
+F 3 "~" H 5550 3900 50  0001 C CNN
+	1    5550 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C24
+U 1 1 6184A9DC
+P 3150 3850
+AR Path="/613C8C5F/6184A9DC" Ref="C24"  Part="1" 
+AR Path="/6146B287/6184A9DC" Ref="C28"  Part="1" 
+AR Path="/6146EB3E/6184A9DC" Ref="C32"  Part="1" 
+AR Path="/61471317/6184A9DC" Ref="C36"  Part="1" 
+F 0 "C28" V 2895 3850 50  0000 C CNN
+F 1 "100uF" V 2986 3850 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3188 3700 50  0001 C CNN
+F 3 "~" H 3150 3850 50  0001 C CNN
+	1    3150 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C22
+U 1 1 6184B291
+P 8000 3900
+AR Path="/613C8C5F/6184B291" Ref="C22"  Part="1" 
+AR Path="/6146B287/6184B291" Ref="C26"  Part="1" 
+AR Path="/6146EB3E/6184B291" Ref="C30"  Part="1" 
+AR Path="/61471317/6184B291" Ref="C34"  Part="1" 
+F 0 "C26" V 7745 3900 50  0000 C CNN
+F 1 "100uF" V 7836 3900 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 8038 3750 50  0001 C CNN
+F 3 "~" H 8000 3900 50  0001 C CNN
+	1    8000 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C21
+U 1 1 6184B8AE
+P 10600 3900
+AR Path="/613C8C5F/6184B8AE" Ref="C21"  Part="1" 
+AR Path="/6146B287/6184B8AE" Ref="C25"  Part="1" 
+AR Path="/6146EB3E/6184B8AE" Ref="C29"  Part="1" 
+AR Path="/61471317/6184B8AE" Ref="C33"  Part="1" 
+F 0 "C25" V 10345 3900 50  0000 C CNN
+F 1 "100uF" V 10436 3900 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 10638 3750 50  0001 C CNN
+F 3 "~" H 10600 3900 50  0001 C CNN
+	1    10600 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 3450 5700 3700
+Wire Wire Line
+	5250 3700 5700 3700
+Wire Bus Line
+	1750 2300 10450 2300
+Connection ~ 5250 3700
+Wire Wire Line
+	5250 3700 5250 4550
+Connection ~ 5700 3700
+Wire Wire Line
+	5700 3700 5700 3900
+$EndSCHEMATC
