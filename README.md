@@ -1,5 +1,5 @@
 # Stepper Clock
-
+**still testing!! pcb may not work!!**
 ## images
 
 ### Schematic and PCB
